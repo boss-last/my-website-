@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Informatiques - SSII</title>
+    <link rel="stylesheet" href="c:\Users\MAGIK BC\Desktop\PROGRAMATION\CSS\monprojet225.css">
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ENTÊTE AVEC BANNIÈRE ET LOGO -->
+    <header>
+        <div class="banniere">
+            <div class="logo">
+                <div class="logo-carre">SI</div>
+            </div>
+            <h1>Services Informatiques</h1>
+            <div class="header-droite">
+                <a href="#" class="lien-espace-client">Espace Client</a>
+                <a href="#contacts" class="bouton-contact">Nous Contacter</a>
+            </div>
+        </div>
+
+        <!-- MENU GÉNÉRAL -->
+        <nav class="menu-principal">
+            <div class="burger-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="menu">
+                <li><a href="#">Accueil</a></li>
+                <li class="menu-deroulant">
+                    <a href="#">Présentation <i class="fas fa-chevron-down"></i></a>
+                    <ul class="sous-menu">
+                        <li><a href="#">Historique</a></li>
+                        <li><a href="#">Mission</a></li>
+                        <li><a href="#">Equipe</a></li>
+                    </ul>
+                </li>
+                <li class="menu-deroulant">
+                    <a href="#">Prestations <i class="fas fa-chevron-down"></i></a>
+                    <ul class="sous-menu">
+                        <li><a href="#">Réseaux informatiques</a></li>
+                        <li><a href="#">Télécommunications</a></li>
+                        <li><a href="#">Genie Logiciels</a></li>
+                        <li><a href="#">Intelligence économique</a></li>
+                        <li><a href="#">Technologie internet</a></li>
+                        <li><a href="#">Sécurité des SI</a></li>
+                    </ul>
+                </li>
+                <li class="menu-deroulant">
+                    <a href="#">Formations <i class="fas fa-chevron-down"></i></a>
+                    <ul class="sous-menu">
+                        <li><a href="#">Certifications</a></li>
+                        <li><a href="#">Séminaires</a></li>
+                        <li><a href="#">Conférences</a></li>
+                        <li><a href="#">Ateliers</a></li>
+                    </ul>
+                </li>
+                <li class="menu-deroulant">
+                    <a href="#">Partenaires <i class="fas fa-chevron-down"></i></a>
+                    <ul class="sous-menu">
+                        <li><a href="#">Nationaux</a></li>
+                        <li><a href="#">Inter nations</a></li>
+                    </ul>
+                </li>
+                <li class="menu-deroulant">
+                    <a href="#">Support <i class="fas fa-chevron-down"></i></a>
+                    <ul class="sous-menu">
+                        <li><a href="#">Assistance</a></li>
+                        <li><a href="#">Téléchargement</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTENU PRINCIPAL -->
+    <div class="conteneur">
+        <!-- COLONNE PRINCIPALE -->
+        <main>
+            <!-- Carrousel d'images -->
+            <div class="carrousel">
+                <div class="carrousel-container">
+                    <div class="carrousel-slide active">
+                        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&h=400&q=80" alt="Solutions de Sécurité">
+                        <div class="carrousel-contenu">
+                            <h2>Solutions de Sécurité Avancées</h2>
+                            <p>Protégez votre infrastructure avec nos services de cybersécurité de pointe</p>
+                            <a href="#" class="bouton">En savoir plus</a>
+                        </div>
+                    </div>
+                    <div class="carrousel-slide">
+                        <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&h=400&q=80" alt="Développement sur Mesure">
+                        <div class="carrousel-contenu">
+                            <h2>Développement sur Mesure</h2>
+                            <p>Des solutions logicielles adaptées à vos besoins spécifiques</p>
+                            <a href="#" class="bouton">Découvrir nos services</a>
+                        </div>
+                    </div>
+                    <div class="carrousel-slide">
+                        <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&h=400&q=80" alt="Infrastructure Cloud">
+                        <div class="carrousel-contenu">
+                            <h2>Infrastructure Cloud</h2>
+                            <p>Modernisez votre entreprise avec nos solutions cloud performantes</p>
+                            <a href="#" class="bouton">Nos offres cloud</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carrousel-prev">&lt;</button>
+                <button class="carrousel-next">&gt;</button>
+                <div class="carrousel-points">
+                    <span class="point active"></span>
+                    <span class="point"></span>
+                    <span class="point"></span>
+                </div>
+            </div>
+
+            <!-- Section Bienvenue -->
+            <section class="bienvenue">
+                <h2>Bienvenue chez Services Informatiques</h2>
+                <p>Depuis plus de 15 ans, <strong>Services Informatiques</strong> accompagne les entreprises dans leur transformation numérique. Nous proposons des solutions adaptées à vos besoins spécifiques, qu'il s'agisse de développement logiciel, d'infrastructure réseau, de cybersécurité ou de formation.</p>
+                <p>Notre équipe d'experts certifiés assure un service de qualité, avec une approche centrée sur l'innovation et la satisfaction client.</p>
+                
+                <div class="services-grid">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>Infrastructure Réseau</h3>
+                        <p>Conception, déploiement et maintenance d'infrastructures réseau sécurisées et performantes.</p>
+                    </div>
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Développement Logiciel</h3>
+                        <p>Applications sur mesure, sites web et solutions mobiles développés selon vos spécifications.</p>
+                    </div>
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Cybersécurité</h3>
+                        <p>Protection de vos données et systèmes contre les menaces informatiques actuelles.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Formulaires d'inscription -->
+            <section class="inscription">
+                <h2>Rejoignez-nous</h2>
+                <p>Devenez partenaire de Services Informatiques et profitez de nos offres exclusives. Remplissez le formulaire correspondant à votre profil ci-dessous.</p>
+                
+                <div class="onglets">
+                    <div class="onglet-boutons">
+                        <button class="onglet-btn active" data-onglet="client">Client</button>
+                        <button class="onglet-btn" data-onglet="fournisseur">Fournisseur</button>
+                        <button class="onglet-btn" data-onglet="partenaire">Partenaire</button>
+                    </div>
+                    
+                    <div class="onglet-contenu">
+                        <!-- Formulaire Client -->
+                        <div class="form-container active" id="client-form">
+                            <form>
+                                <div class="form-grille">
+                                    <div class="form-groupe">
+                                        <label for="client-nom">Nom de l'entreprise *</label>
+                                        <input type="text" id="client-nom" required>
+                                    </div>
+                                    <div class="form-groupe">
+                                        <label for="client-secteur">Secteur d'activité *</label>
+                                        <select id="client-secteur" required>
+                                            <option value="">Sélectionnez un secteur</option>
+                                            <option value="finance">Finance & Banque</option>
+                                            <option value="sante">Santé</option>
+                                            <option value="education">Éducation</option>
+                                            <option value="commerce">Commerce</option>
+                                            <option value="industrie">Industrie</option>
+                                            <option value="services">Services</option>
+                                            <option value="autre">Autre</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-groupe">
+                                        <label for="client-email">Adresse email *</label>
+                                        <input type="email" id="client-email" required>
+                                    </div>
+                                    <div class="form-groupe">
+                                        <label for="client-telephone">Téléphone *</label>
+                                        <input type="tel" id="client-telephone" required>
+                                    </div>
+                                    <div class="form-groupe full-width">
+                                        <label for="client-besoins">Besoins spécifiques</label>
+                                        <textarea id="client-besoins" rows="4"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-checkbox">
+                                    <input type="checkbox" id="client-terms" required>
+                                    <label for="client-terms">J'accepte les conditions générales *</label>
+                                </div>
+                                <button type="submit" class="btn-submit">S'inscrire comme client</button>
+                            </form>
+                        </div>
+                        
+                        <!-- Formulaire Fournisseur -->
+                        <div class="form-container" id="fournisseur-form">
+                            <form>
+                                <div class="form-grille">
+                                    <div class="form-groupe">
+                                        <label for="fournisseur-nom">Nom de l'entreprise *</label>
+                                        <input type="text" id="fournisseur-nom" required>
+                                    </div>
+                                    <div class="form-groupe">
+                                        <label for="fournisseur-specialite">Spécialité *</label>
+                                        <input type="text" id="fournisseur-specialite" required>
+                                    </div>
+                                    <div class="form-groupe">
+                                        <label for="fournisseur-email">Adresse email *</label>
+                                        <input type="email" id="fournisseur-email" required>
+                                    </div>
+                                    <div class="form-groupe">
+                                        <label for="fournisseur-telephone">Téléphone *</label>
+                                        <input type="tel" id="fournisseur-telephone" required>
+                                    </div>
+                                    <div class="form-groupe">
+                                        <label for="fournisseur-site">Site web</label>
+                                        <input type="url" id="fournisseur-site">
+                                    </div>
+                                    <div class="form-groupe">
+                                        <label for="fournisseur-pays">Pays *</label>
+                                        <select id="fournisseur-pays" required>
+                                            <option value="">Sélectionnez un pays</option>
+                                            <option value="civ">Côte d'Ivoire</option>
+                                            <option value="fr">France</option>
+                                            <option value="us">États-Unis</option>
+                                            <option value="ca">Canada</option>
+                                            <option value="other">Autre</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-checkbox">
+                                    <input type="checkbox" id="fournisseur-terms" required>
+                                    <label for="fournisseur-terms">J'accepte les conditions générales *</label>
+                                </div>
+                                <button type="submit" class="btn-submit">S'inscrire comme fournisseur</button>
+                            </form>
+                        </div>
+                        
+                        <!-- Formulaire Partenaire -->
+                        <div class="form-container" id="partenaire-form">
+                            <form>
+                                <div class="form-grille">
+                                    <div class="form-groupe">
+                                        <label for="partenaire-nom">Nom de l'entreprise *</label>
+                                        <input type="text" id="partenaire-nom" required>
+                                    </div>
+                                    <div class="form-groupe">
+                                        <label for="partenaire-type">Type de partenariat *</label>
+                                        <select id="partenaire-type" required>
+                                            <option value="">Sélectionnez un type</option>
+                                            <option value="technologique">Technologique</option>
+                                            <option value="commercial">Commercial</option>
+                                            <option value="formation">Formation</option>
+                                            <option value="recherche">Recherche</option>
+                                            <option value="autre">Autre</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-groupe">
+                                        <label for="partenaire-email">Adresse email *</label>
+                                        <input type="email" id="partenaire-email" required>
+                                    </div>
+                                    <div class="form-groupe">
+                                        <label for="partenaire-telephone">Téléphone *</label>
+                                        <input type="tel" id="partenaire-telephone" required>
+                                    </div>
+                                    <div class="form-groupe full-width">
+                                        <label for="partenaire-description">Description du partenariat *</label>
+                                        <textarea id="partenaire-description" rows="4" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-checkbox">
+                                    <input type="checkbox" id="partenaire-terms" required>
+                                    <label for="partenaire-terms">J'accepte les conditions générales *</label>
+                                </div>
+                                <button type="submit" class="btn-submit">S'inscrire comme partenaire</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <!-- MENU DROIT (SIDEBAR) -->
+        <aside class="sidebar">
+            <!-- Services -->
+            <div class="sidebar-section">
+                <h3>Nos Services</h3>
+                <ul class="sidebar-services">
+                    <li><a href="#"><i class="fas fa-angle-right"></i> Développement sur mesure</a></li>
+                    <li><a href="#"><i class="fas fa-angle-right"></i> Infrastructure cloud</a></li>
+                    <li><a href="#"><i class="fas fa-angle-right"></i> Sécurité informatique</a></li>
+                    <li><a href="#"><i class="fas fa-angle-right"></i> Intelligence artificielle</a></li>
+                    <li><a href="#"><i class="fas fa-angle-right"></i> Audit & conseil</a></li>
+                </ul>
+            </div>
+            
+            <!-- Événements -->
+            <div class="sidebar-section">
+                <h3>Événements à venir</h3>
+                <div class="events">
+                    <div class="event">
+                        <div class="event-date">24 Mars 2025</div>
+                        <h4>Séminaire Cybersécurité</h4>
+                        <p>Découvrez les dernières tendances en matière de protection des données.</p>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">10 Avril 2025</div>
+                        <h4>Formation Cloud Azure</h4>
+                        <p>Formation certifiante sur les technologies Microsoft Azure.</p>
+                    </div>
+                </div>
+                <a href="#" class="view-all">Voir tous les événements</a>
+            </div>
+            
+            <!-- Newsletter -->
+            <div class="sidebar-section newsletter">
+                <h3>Restez informé</h3>
+                <p>Abonnez-vous à notre newsletter pour recevoir nos actualités et offres spéciales.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Votre adresse email" required>
+                    <button type="submit">S'abonner</button>
+                </form>
+            </div>
+        </aside>
+    </div>
+
+    <!-- PIED DE PAGE -->
+    <footer id="contacts">
+        <div class="footer-conteneur">
+            <div class="footer-section">
+                <h4>Contactez-nous</h4>
+                <ul class="contact-info">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>123 Boulevard Principal<br>Abidjan, Côte d'Ivoire</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+225 01 23 45 67 89</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>contact@services-informatiques.ci</span>
+                    </li>
+                </ul>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Liens rapides</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Formations</a></li>
+                    <li><a href="#">Partenaires</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Nos services</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Réseaux informatiques</a></li>
+                    <li><a href="#">Télécommunications</a></li>
+                    <li><a href="#">Génie Logiciel</a></li>
+                    <li><a href="#">Intelligence économique</a></li>
+                    <li><a href="#">Technologies internet</a></li>
+                    <li><a href="#">Sécurité des SI</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Horaires d'ouverture</h4>
+                <ul class="horaires">
+                    <li>
+                        <span>Lundi - Vendredi:</span>
+                        <span>08:00 - 18:00</span>
+                    </li>
+                    <li>
+                        <span>Samedi:</span>
+                        <span>09:00 - 13:00</span>
+                    </li>
+                    <li>
+                        <span>Dimanche:</span>
+                        <span>Fermé</span>
+                    </li>
+                </ul>
+                <div class="support-note">
+                    <p>Support technique disponible 24/7 pour nos clients sous contrat.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Services Informatiques. Tous droits réservés.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Mentions légales</a>
+                <span>|</span>
+                <a href="#">Politique de confidentialité</a>
+                <span>|</span>
+                <a href="#">Conditions d'utilisation</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
